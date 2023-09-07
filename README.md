@@ -1,15 +1,37 @@
-```
-git clone git@github.com:skivisi/backend.git<br>
-cd backend<br>
-npm install<br>
+## プロジェクト概要
+エンジニアのスキル可視化サイト。
+ユーザーはスキルシート及びスペックシートの登録が行える。（スペックシートのpdf化も可能）
+
+管理者及び営業はダッシュボードにてエンジニアの所有しているにスペック（使用言語、フレームワーク、ライブラリ等）に応じて絞り込み検索を行うことができる。
+
+URL:https://skivisi-frontend-i9onf0mqm-ronaudo9.vercel.app/
+
+## インストール方法
+
+```bash
+git clone 
+cd frontend
+npm install
 npm run dev
 ```
 
-postgres
-```
-// サーバー起動
-postgres -D /usr/local/var/postgres &
+##ユーザーのテストログイン
 
-// サーバー停止
-pg_ctl -D /usr/local/var/postgres stop
+```bash
+メールアドレス:test@example.com
+パスワード:pawapuro
+```
+
+##営業のテストログイン
+
+```bash
+メールアドレス:sales-test@example.com
+パスワード:admin-pawapuro
+```
+
+##管理者のテストログイン
+
+```bash
+メールアドレス:admin-test@example.com
+パスワード:admin-pawapuro
 ```
