@@ -9,8 +9,8 @@ URL:https://skivisi-frontend-i9onf0mqm-ronaudo9.vercel.app/
 ## インストール方法
 
 ```bash
-git clone 
-cd frontend
+git clone git@github.com:ronaudo9/skivisi-backend.git 
+cd skivisi-backend 
 npm install
 npm run dev
 ```
